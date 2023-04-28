@@ -1,0 +1,35 @@
+.pickup {
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 30%;
+    margin-top: 45px;
+    max-width: 1200px;
+    gap: 50px;
+    
+    .posters {
+        background: #F7F2EE;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        flex-basis: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+
+        h1 {
+            color: black;
+            font-size: 60px;
+            text-align: center;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #464750;
+        }
+
+        .postersOptions {
+            display: flex;
+            gap: 40px;
+        }
+    }
+}
